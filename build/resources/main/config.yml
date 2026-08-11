@@ -1,0 +1,17 @@
+discord-webhook-url: "YOUR_WEBHOOK_URL_HERE"
+
+camper:
+  # Rango en bloques 
+  radius: 500
+  # Intervalo de aviso en minutos (cada cuántos minutos de inactividad avisa, ej: 30)
+  alert-interval-minutes: 30
+
+combat-log:
+  # Segundos de historial para generar la línea de tiempo de evasión
+  seconds: 30
+  evasion-commands:
+    - "/tpa"
+    - "/tpahere"
+    - "/home"
+    - "/spawn"
+    - "/warp"
